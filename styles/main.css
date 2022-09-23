@@ -4493,7 +4493,7 @@ figcaption {
 }
 
 .dropdown-item:hover {
-    background-color: hsla(0, 0%, 100%, 0.05);
+    background-color: hsla(0, 0%, 0%, 0.05);
     color: #2A3235;
 }
 
