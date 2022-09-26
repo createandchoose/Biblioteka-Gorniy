@@ -3127,10 +3127,12 @@ figcaption {
     transition: 0.3s;
     margin-top: 24px;
     margin-bottom: 24px;
+    background-color: #fff;
+    border: solid 2px rgba(11, 3, 34, 0.103);
 }
 
 .button-large-outline:hover {
-    border-color: #2a32357e;
+    border-color: #2a323525;
     color: #2A3235;
     transition: 0.18s;
 }
