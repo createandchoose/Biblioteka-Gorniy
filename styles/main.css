@@ -1434,8 +1434,8 @@ textarea.w-select {
     display: inline-block;
     position: relative;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     z-index: 900
 }
 
@@ -4558,7 +4558,7 @@ figcaption {
 }
 
 .footer {
-    margin-top: 94px;
+    margin-top: 0px;
     /* margin-top: 24px; */
 }
 
@@ -5956,6 +5956,9 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
+    .i {
+        display: none;
+    }
     blockquote {
         margin-top: 36px;
         margin-bottom: 36px;
@@ -7026,4 +7029,8 @@ figcaption {
 #w-node-_00e1d4d2-637b-023d-3640-ae092c2fe6c3-925f0412 {
     -ms-grid-column-align: end;
     justify-self: end;
+}
+
+.events-f {
+    margin-bottom: 24px;
 }
