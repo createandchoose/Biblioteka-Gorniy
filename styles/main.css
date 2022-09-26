@@ -2595,7 +2595,7 @@ figcaption {
     background-color: hsl(0, 0%, 100%);
     /* background-color: hsla(0, 0%, 100%, 0.05); */
     direction: ltr;
-    filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.16));
+    filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.06));
 }
 
 .panel.style-guide-color-swatch {
@@ -3302,7 +3302,7 @@ figcaption {
 }
 
 .icon-circle-small.bg-gray-3 {
-    background-color: hsla(0, 0%, 100%, 0.1);
+    background-color: hsla(196, 12%, 19%, 0.1);
 }
 
 .button-circle-small-icon {
