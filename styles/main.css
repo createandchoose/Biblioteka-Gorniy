@@ -6679,6 +6679,10 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
+    .simbios {
+        text-align: right;
+        margin: auto;
+    }
     body {
         padding-bottom: 12px;
     }
@@ -7035,4 +7039,16 @@ figcaption {
 
 .events-f {
     margin-bottom: 24px;
+}
+
+.simbios {
+    text-align: right;
+    margin: none;
+    transition: 0.24s;
+    scale: 1;
+}
+
+.simbios:hover {
+    transition: 0.1s;
+    scale: 1.05;
 }
