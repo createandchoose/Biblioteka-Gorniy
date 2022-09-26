@@ -3445,9 +3445,9 @@ figcaption {
     margin-bottom: 0px;
     padding-right: 20px;
     padding-left: 20px;
-    border: 1px none #000;
+    border: 1px solid hsla(0, 0%, 0%, 0.05);
     border-radius: 6px;
-    background-color: hsla(0, 0%, 0%, 0.1);
+    background-color: hsla(0, 0%, 91%, 1.0);
     -webkit-transition: background-color 200ms ease;
     transition: background-color 200ms ease;
     color: #2A3235;
@@ -3456,7 +3456,7 @@ figcaption {
 }
 
 .form-input:focus {
-    background-color: hsla(241, 100%, 50%, 0.15);
+    background-color: hsl(0, 0%, 91%);
     color: #2A3235;
 }
 
