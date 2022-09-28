@@ -6678,8 +6678,24 @@ figcaption {
     }
 }
 
+#ft-two {
+    display: var();
+}
+
+#abt {}
+
 @media screen and (max-width: 479px) {
+    #abt {
+        text-align: left;
+    }
+    #ft-two {
+        display: none;
+    }
     .simbios {
+        text-align: right;
+        margin: auto;
+    }
+    .simbioss {
         text-align: right;
         margin: auto;
     }
@@ -7048,6 +7064,11 @@ figcaption {
     scale: 1;
 }
 
+.simbioss {
+    text-align: right;
+    margin: none;
+}
+
 .simbios:hover {
     transition: 0.1s;
     scale: 1.05;
@@ -7058,12 +7079,13 @@ table.iksweb {
     border-collapse: collapse;
     border-spacing: 0;
     height: auto;
+    color: #2A3235;
 }
 
 table.iksweb,
 table.iksweb td,
 table.iksweb th {
-    border: 1px solid #595959;
+    border: 1px solid #c9c9c9;
 }
 
 table.iksweb td,
@@ -7074,6 +7096,31 @@ table.iksweb th {
 }
 
 table.iksweb th {
+    background: #347c99;
+    color: #fff;
+    font-weight: normal;
+}
+
+
+/* asd */
+
+table.ikswebs {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+    color: #2A3235;
+    margin-bottom: 24px;
+}
+
+table.ikswebs td,
+table.ikswebs th {
+    padding: 3px;
+    width: 30px;
+    height: 35px;
+}
+
+table.ikswebs th {
     background: #347c99;
     color: #fff;
     font-weight: normal;
