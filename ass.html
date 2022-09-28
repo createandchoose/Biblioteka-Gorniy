@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Rating</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        body {
+            background: grey;
+            color: white;
+        }
+        
+        i {
+            cursor: pointer;
+        }
+        
+        #selected {
+            color: #f7c10c;
+        }
+        
+        #unselected {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <i class="fa fa-star star-1"></i>
+    <i class="fa fa-star star-2"></i>
+    <i class="fa fa-star star-3"></i>
+    <i class="fa fa-star star-4"></i>
+    <i class="fa fa-star star-5"></i>
+    <sub class="autoRating">
+    (<span>0</span> / 5)
+    <input type="text" value="0" id="inp" style="display:none">
+</sub>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script>
+        function changeStarColor(ratingArg) {
+            let rating = ratingArg;
+            for (let i = 1; i <= rating; i++) {
+                $(`.star-${i}`).attr("id", "selected");
+            }
+            for (let i = rating + 1; i <= 5; i++) {
+                $(`.star-${i}`).attr("id", "unselected");
+            }
+            $(".autoRating > span").html(rating);
+            $(".autoRating > #inp").attr('value', rating);
+        }
+
+        let selectedRating = 0;
+
+        $("i").hover(function() {
+            let starClass = parseInt($(this).attr("class").split("star-")[1]);
+            changeStarColor(starClass);
+        }, function() {
+            if (selectedRating == 0) {
+                changeStarColor(0);
+                $(".autoRating > span").html("0");
+                $(".autoRating > #inp").attr('value', 0);
+            } else {
+                changeStarColor(selectedRating);
+            }
+        });
+
+        $("i").click(function() {
+            let starClass = parseInt($(this).attr("class").split("star-")[1]);
+            changeStarColor(starClass);
+            selectedRating = starClass;
+        });
+    </script>
