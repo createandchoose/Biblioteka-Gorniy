@@ -1437,7 +1437,7 @@ textarea.w-select {
     text-align: left;
     /* margin-left: auto;
     margin-right: auto; */
-    z-index: 900
+    z-index: 900;
 }
 
 .w-dropdown-btn,
@@ -2101,6 +2101,10 @@ textarea.w-select {
     }
     .w-nav[data-collapse="medium"] .w-nav-button {
         display: block
+    }
+    .w-dropdown {
+        margin-top: 6px;
+        margin-bottom: 14px;
     }
 }
 
@@ -4675,6 +4679,11 @@ figcaption {
     display: flex;
 }
 
+.navbar-buttonss {
+    display: none;
+    margin-top: 16px;
+}
+
 .form-vertical {
     display: -ms-grid;
     display: grid;
@@ -6527,6 +6536,12 @@ figcaption {
     }
     .navbar-buttons {
         display: none;
+    }
+    .navbar-buttonss {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
     }
     .horizontal-form {
         display: -ms-grid;
