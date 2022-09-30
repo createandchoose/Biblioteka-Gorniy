@@ -4911,7 +4911,7 @@ figcaption {
     right: 0%;
     bottom: 0%;
     border-radius: 12px;
-    background-image: url("/images/head.jpg");
+    background-image: url("/images/head.svg");
     background-position: 0px 0px;
     background-size: cover;
     /* opacity: 0.5; */
