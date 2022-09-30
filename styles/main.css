@@ -3345,7 +3345,8 @@ figcaption {
 }
 
 .button-circle.bg-white {
-    background-color: #2A3235;
+    background-color: #ffffff;
+    margin-bottom: 24px;
 }
 
 .button-circle-icon {
