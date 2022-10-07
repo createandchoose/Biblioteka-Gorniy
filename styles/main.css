@@ -6331,6 +6331,7 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
+    
     body {
         padding-bottom: 24px;
     }
@@ -6702,6 +6703,38 @@ figcaption {
 #abt {}
 
 @media screen and (max-width: 479px) {
+    .background-image-wrapper {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        z-index: 0;
+        height: 250px;
+    }
+
+    .w-slide {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        height: 250px;
+        white-space: normal;
+        text-align: left;
+      }
+
+    .section {
+        margin: 0;
+    }
+    .panel-subheading {
+        font-size: 12px;
+    }
+
+    .display-heading-2{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    
     #abt {
         text-align: left;
     }
@@ -6764,10 +6797,10 @@ figcaption {
         font-size: 40px;
         line-height: 44px;
     }
-    .display-heading-2 {
+    /* .display-heading-2 {
         font-size: 40px;
         line-height: 44px;
-    }
+    } */
     .display-heading-3 {
         font-size: 40px;
         line-height: 44px;
