@@ -6331,6 +6331,13 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
+    #myVideo {
+        height: 100%;
+    }
+    .section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     body {
         padding-bottom: 24px;
     }
