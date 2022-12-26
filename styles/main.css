@@ -7241,3 +7241,61 @@ table.ikswebs th {
     font-style: normal;
     font-display: swap;
 }
+
+.mi20 {
+    margin-bottom: 20px;
+}
+
+.bg-primary-33 {
+    background-color: #0e7dff;
+}
+
+.text-primary-33 {
+    color: #0e7dff;
+}
+
+.bgvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+
+.slct-h {
+    margin-top: 100px;
+    margin-bottom: 220px;
+    color: #FFFFFF;
+}
+
+.tag-aboutts {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 140px;
+    height: 26px;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #ffd031;
+    color: #121314;
+    font-weight: 700;
+}
+
+.headtxts {
+    width: 805px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 900;
+}
